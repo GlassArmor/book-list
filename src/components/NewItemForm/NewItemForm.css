@@ -1,0 +1,29 @@
+.item-form {
+  padding: 12px;
+  width: 20%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.item-form-input, .item-form-button, .item-form-add_cover {
+  font-size: 1.2em;
+  color: rgb(10, 100, 170);
+  display: block;
+  padding: 6px;
+  width: 95%;
+  outline: none;
+  border: 2px solid rgb(10, 100, 170);
+  border-radius: 4px;
+  margin: 8px auto;
+}
+
+.item-form-button {
+  outline: none;
+  width: 50px;
+}
+
+.item-form-add_cover {
+  font-size: 12px;
+}

@@ -1,0 +1,8 @@
+.item-list {
+  width: 80%;
+  float: right;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}

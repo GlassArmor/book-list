@@ -1,0 +1,75 @@
+.item {
+  display: block;
+  margin: 8px;
+  padding: 8px;
+  width: 45%;
+  min-height: 80px;
+  border: 2px solid rgb(125, 215, 215);
+  border-radius: 5px;
+  position: relative;
+  background-color: rgba(207, 250, 247, 0.5);
+}
+
+.item-button {
+  outline: none;
+  height: 24px;
+  width: 24px;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 24px;
+}
+.item-button-delete {
+  color: tomato;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border: 1px solid tomato;
+  border-radius: 50%;
+}
+
+.item-button-edit {
+  color: rgb(25, 219, 103);
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  width: 40px;
+  border: 1px solid rgb(25, 219, 103);
+  border-radius: 5px;
+}
+
+.item-edit-input {
+  padding: 4px;
+  width: 60%;
+  margin: 2px 2px 2px 20px;
+  border: 1px solid rgb(125, 215, 215);
+  border-radius: 4px;
+  outline: none;
+  background-color: #fff;
+}
+
+.item-info {
+  display: flex;
+}
+
+.item-cover {
+  width: 145px;
+  height: 205px;
+}
+
+.item-text {
+  padding-left: 12px;
+  word-break: break-word;
+}
+
+.item-header {
+  width: 90%;
+  padding-top: 8px;
+}
+
+.item-author {
+  padding-top: 12px;
+  width: 90%;
+  color: rgb(117, 118, 119);
+  font-size: 12px;
+}
